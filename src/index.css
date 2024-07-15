@@ -1,0 +1,76 @@
+/* App.css */
+body{
+  font-family: "Roboto";
+}
+/* home */
+.mainBG_home{
+  background-color: #E9F4FF;
+  overflow: hidden !important;
+}
+.table-hover tbody tr:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.table-hover tbody tr {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.hero {
+  background-color: #f0f0f0;
+  padding: 80px 0;
+
+}
+
+.hero h1 {
+  color: #333;
+}
+
+.hero p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+/* =-------Sidebar---------- */
+
+/* =-------Sidebar---------- */
+
+.mainBG-side {
+  background-color: #002B6A; /* لون الخلفية الافتراضي للسايدبار */
+  min-height: 100vh; /* ارتفاع الحد الأدنى للسايدبار ليمتد على كامل الشاشة */
+  color: #ffffff; /* لون النص الافتراضي */
+  padding-top: 20px; /* هامش أعلى للمحتوى داخل السايدبار */
+}
+
+.nav-link {
+  padding: 10px 20px !important; /* هامش داخلي للروابط في السايدبار */
+  transition: background-color 0.3s ease, color 0.3s ease; /* تأثير التحويل للخلفية والنص عند التحويل */
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 30px 80px !important; 
+  border-bottom-left-radius: 30px 80px !important;
+}
+
+.nav-link:hover {
+  background-color: #004987; /* لون الخلفية عند التحويل */
+  color: #ffffff; /* لون النص عند التحويل */
+}
+
+.nav-link.active {
+  background-color: #ffffff !important; /* لون الخلفية عندما يكون الرابط نشطًا */
+  color: #002B6A !important; /* لون النص عندما يكون الرابط نشطًا */
+  font-weight: bold !important; /* تحديد سمك الخط عندما يكون الرابط نشطًا */
+  padding-left: 30px; /* توسيع هامش اليسار لكلمة الرابط عند النشاط */
+}
+
+.nav-link .fa-solid {
+  margin-right: 10px; /* هامش يميني للأيقونة داخل الرابط */
+}
